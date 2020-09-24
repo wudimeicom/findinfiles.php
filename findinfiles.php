@@ -186,7 +186,7 @@ path containns: <input type="text" name="path_dont_containns" value="<?php echo 
 path doesn't containns: <input type="text" name="path_doesnt_containns" value="<?php echo $path_doesnt_containns; ?>" required  /> <br />
 pattern: <input type="text" name="pattern"  value="<?php echo $pattern; ?>" required />
 eg: #htm[l]+# <br />
-replacement: <input type="text" name="replacement"  value="<?php echo $replacement; ?>" /> <br />
+replacement: <input type="text" name="replacement"  value="<?php echo $replacement; ?>" /> eg:$0_new<br />
 <input type="submit" name="find" value="find"  class="btn" />
 <input type="submit" name="replace" value="replace" onclick="return confirm('Danger!The replacement in your files can not be restore.Do you want to continue?')" class="btn" />
 
